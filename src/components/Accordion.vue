@@ -33,10 +33,17 @@ export default {
 </script>
 
 <style scoped>
+
 .accordion {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin: 10px 0;
+}
+
+@media (max-width: 480px) {
+  .accordion {  
+  margin: 1%;
+}
 }
 
 .accordion-header {
@@ -55,6 +62,13 @@ export default {
 
 .accordion-content {
   padding: 10px;
+}
+
+@media (max-width: 480px) {
+  .accordion-content {  
+  margin: 1%;
+  padding: 0;
+}
 }
 
 .arrow-rotated {

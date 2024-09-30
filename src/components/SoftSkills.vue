@@ -39,4 +39,29 @@ export default {
   padding: 50;
   text-align: left;
 }
+
+@media (max-width: 1024px) {
+  .skills-list {  
+    gap: 8%;     
+    list-style-type: disc;    
+}
+}
+
+@media (max-width: 768px) {
+  .skills-list {  
+    gap: 8%;
+    font-size: 85%;
+    margin-left: -25px;
+    list-style-type: disc;    
+}
+}
+
+@media (max-width: 480px) {
+  .skills-list {  
+    gap: 8%;
+    font-size: 60%;
+    margin-left: -25px;
+    list-style-type: disc;    
+}
+}
 </style>

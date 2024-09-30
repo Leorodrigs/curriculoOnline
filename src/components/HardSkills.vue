@@ -42,14 +42,70 @@ export default {
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  .HardSkills{  
+  display: block;
+}
+}
+
+@media (max-width: 768px) {
+  .HardSkills{  
+  display: block;
+}
+}
+
+@media (max-width: 480px) {
+  .HardSkills{  
+  display: block;
+}
+}
+
 .icons {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 50px;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 1024px) {
+  .icons {  
+    margin-bottom: 2%;
+    margin-left: 1%;
+    gap: 10%     
+}
+}
+
+@media (max-width: 768px) {
+  .icons {  
+    margin-bottom: 2%;
+    margin-left: 5%;
+    gap: 5% 
+}
+}
+
+@media (max-width: 480px) {
+  .icons {  
+    margin-bottom: 5%;
+    gap: 10%
+}
 }
 
 .icons img {
   width: 50px;
   height: 50px;
+}
+
+@media (max-width: 768px) {
+  .icons img {  
+    width: 40px;
+    height: 40px;
+}
+}
+
+@media (max-width: 480px) {
+  .icons img {  
+    width: 32px;
+    height: 32px;
+}
 }
 </style>

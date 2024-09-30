@@ -77,4 +77,19 @@ body {
   width: 800px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+@media (max-width: 768px) {
+  .container {  
+  width: 600px;  
+}
+}
+
+@media (max-width: 480px) {
+  .container {  
+  width: 400px;  
+}
+}
+
+
 </style>
