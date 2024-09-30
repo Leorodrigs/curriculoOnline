@@ -86,6 +86,7 @@ export default {
 @media (max-width: 480px) {
   .icons {  
     margin-bottom: 5%;
+    margin-right: 15%;
     gap: 10%
 }
 }
@@ -104,8 +105,8 @@ export default {
 
 @media (max-width: 480px) {
   .icons img {  
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
 }
 }
 </style>

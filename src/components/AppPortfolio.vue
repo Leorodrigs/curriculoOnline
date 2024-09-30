@@ -30,6 +30,12 @@ export default {
   gap: 30px;
 }
 
+@media (max-width: 480px) {
+  .portfolio-content {  
+    font-size: 50%;
+}
+}
+
 .portfolio-content a {
   display: block;
   margin: 10px 0;

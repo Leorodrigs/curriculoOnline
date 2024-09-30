@@ -34,6 +34,16 @@ export default {
   justify-content: flex-start;
 }
 
+@media (max-width: 480px) {
+  .header {  
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5%;  
+    font-size: 75%;  
+}
+}
+
 .profile-pic {
   border-radius: 50%;
   width: 150px;
@@ -41,12 +51,16 @@ export default {
   margin-right: 20px;
 }
 
+
 .info h1 {
   font-size: 1.5em;
   margin: 0;
 }
 
+
 .info p {
   margin: 5px 0;
 }
+
+
 </style>

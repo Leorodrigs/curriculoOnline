@@ -59,8 +59,10 @@ export default {
 @media (max-width: 480px) {
   .skills-list {  
     gap: 8%;
-    font-size: 60%;
+    font-size: 50%;
     margin-left: -25px;
+    margin-bottom: 10%;
+    grid-template-columns: repeat(2, 1fr);
     list-style-type: disc;    
 }
 }
