@@ -3,7 +3,7 @@
     <div class="portfolio-content">
       <a href="https://github.com/Leorodrigs" target="_blank">GitHub</a>
       <a
-        href="https://drive.google.com/file/d/1zqzwPgOsIlBksy59kwmBf412iNLKTy31/view?usp=sharing"
+        href="https://drive.google.com/file/d/15YyNxSX_stxI6JXGGv-wfBlM0ciFJmcj/view?usp=sharing"
         target="_blank"
         >Currículo</a
       >
